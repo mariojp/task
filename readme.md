@@ -13,5 +13,9 @@ Start coding in a [ready-to-code development environment](https://www.gitpod.io)
 Or you can run it from Maven directly using the Maven. If you do this it will pick up changes that you make in the project immediately (changes to Java source files require a compile as well - most people use an IDE for this):
 
 ```
-./mvnw 
+./mvnw exec:java
+```
+or 
+```
+mvn exec:java
 ```

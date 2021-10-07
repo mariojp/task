@@ -13,6 +13,23 @@ public class Tarefa {
     private Boolean concluida;
 
 
+    public Tarefa(){
+
+    }
+
+    public Tarefa(String titulo, String descricao, Boolean concluida){
+        this.titulo = titulo;
+        this.descricao = descricao;
+        this.concluida = concluida;
+    }
+
+    public Tarefa(String titulo, String descricao){
+        this( titulo,descricao, false);
+    }
+
+
+
+
     public String getTitulo(){
         return this.titulo;
     }
